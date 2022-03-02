@@ -399,8 +399,7 @@ bot invite (if its a bot): https://discord.com/api/oauth2/authorize?client_id=%s
 if __name__ == "__main__":
     clear()
     client = Alacritty(
-        token=input("%s[%s~%s] %sToken%s:%s " % (red, reset, red, reset, red, reset)),
-        bot=false,
+        token=input("%s[%s~%s] %sToken%s:%s " % (red, reset, red, reset, red, reset))
         guild=input("%s[%s~%s] %sGuild%s:%s " % (red, reset, red, reset, red, reset)),
         proxies=False
     )
