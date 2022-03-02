@@ -400,7 +400,7 @@ if __name__ == "__main__":
     clear()
     client = Alacritty(
         token=input("%s[%s~%s] %sToken%s:%s " % (red, reset, red, reset, red, reset)),
-        bot=True,
+        bot=false,
         guild=input("%s[%s~%s] %sGuild%s:%s " % (red, reset, red, reset, red, reset)),
         proxies=False
     )
